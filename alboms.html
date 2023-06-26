@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Избранные альбомы</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333333;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      color: #ffffff;
+    }
+    
+    main {
+      margin: 20px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .album {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    
+    .album-cover {
+      flex: 0 0 200px;
+      margin-right: 20px;
+    }
+    
+    .album-cover img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    
+    .album-details {
+      flex: 1;
+    }
+    
+    .album-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 0;
+    }
+    
+    .artist {
+      font-size: 16px;
+      margin-top: 0;
+    }
+    
+    .year {
+      font-size: 14px;
+      margin-top: 0;
+      color: #666666;
+    }
+    main {
+      margin: 20px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .button {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 3px;
+      font-size: 16px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    
+    .button:hover {
+      background-color: #555555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Избранные альбомы</h1>
+  </header>
+
+  <main>
+
+    <div class="button-container">
+      <a class="button" href="main.html">Главная страница</a>
+      <a class="button" href="music.html">Мой плейлист</a>
+      <a class="button" href="alboms.html">Избранные альбомы</a>
+      <a class="button" href="list.html">Топ 10 моих любимых рок исполнителей</a>
+    </div>
+
+    <div class="album">
+      <div class="album-cover">
+        <img src="https://avatars.yandex.net/get-music-content/95061/4f3808a0.a.5307396-3/200x200" alt="Обложка альбома 1">
+      </div>
+      <div class="album-details">
+        <h2 class="album-title">Легенда</h2>
+        <p class="artist">Исполнитель: Кино</p>
+        <p class="year">Год выпуска: 2018</p>
+      </div>
+    </div>
+    
+    <div class="album">
+      <div class="album-cover">
+        <img src="https://i.playground.ru/p/lXmV_yP68yraqk7gn74Wjw.jpeg" alt="Обложка альбома 2">
+      </div>
+      <div class="album-details">
+        <h2 class="album-title">Акустический альбом</h2>
+        <p class="artist">Исполнитель: Король и Шут</p>
+        <p class="year">Год выпуска: 1998</p>
+      </div>
+    </div>
+    
+    <div class="album">
+      <div class="album-cover">
+        <img src="https://avatars.yandex.net/get-music-content/49707/c43a8e32.a.10525-2/200x200" alt="Обложка альбома 3">
+      </div>
+      <div class="album-details">
+        <h2 class="album-title">Крылья</h2>
+        <p class="artist">Исполнитель: Наутилус Помпилиус</p>
+        <p class="year">Год выпуска: 1995</p>
+      </div>
+    </div>
+    
+    <div class="album">
+      <div class="album-cover">
+        <img src="https://avatars.yandex.net/get-music-content/5234929/e893dd2c.a.81431-2/200x200" alt="Обложка альбома 4">
+      </div>
+      <div class="album-details">
+        <h2 class="album-title">ПРОСТИ МЕНЯ МОЯ ЛЮБОВЬ</h2>
+        <p class="artist">Исполнитель: Земфира</p>
+        <p class="year">Год выпуска: 2000</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
